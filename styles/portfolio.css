@@ -23,22 +23,37 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-tittle{
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800; }
 
-nav > ul {
+nav >ul {
     display:flex;
     align-items: center;
 
 }
-nav > ul > li {
+nav  li {
     list-style-type: none;
     margin-right: 50px;
 }
 nav a{
     text-decoration: none;
 color: var(--Dark-02, #474747);
+}
+/* headeer related style */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
+
+
 }
